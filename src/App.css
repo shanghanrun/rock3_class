@@ -1,0 +1,85 @@
+body{
+  display:flex;
+  justify-content: center;
+}
+.container{
+  margin-top: 50px;
+  padding: 40px;
+  width: 60vw;
+  border: 2px solid black;
+}
+
+.score{
+  color: white;
+  background: #4d59fb;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.boxes{
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.result{
+  margin-top: 10px;
+  font-size:30px;
+  text-align: center;
+}
+.buttons{
+  display:flex;
+  justify-content: center;
+  gap: 10px;
+  transition: all 1s;
+}
+
+.btn{
+  margin-top: 10px;
+  cursor: pointer;
+  transition:all 0.6s;
+}
+.btn img{
+  border-radius: 10px;
+}
+.btn:hover img{
+  filter: brightness(80%);
+  transform: scale(1.2)
+}
+
+.Win{
+  border: 10px dashed green;
+  color: green;
+  font-weight: bold;
+}
+.Lose{
+  color: pink
+}
+.Tie{
+  color: blue
+}
+
+.reset{
+  margin-left: 20px;
+  padding: 0 10px;
+  border-radius: 10px;
+  background: #4d59fb;
+  color: white;
+  font-size: 20px;
+}
+.reset{
+  cursor: pointer;
+  transition:all 0.6s;
+}
+.reset:hover{
+  transform: scale(1.2)
+}
+
